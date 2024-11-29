@@ -1,0 +1,30 @@
+.active {
+  background-color: #4daf62; /* Cor quando ativo */
+  color: rgb(255, 255, 255);
+  
+}
+
+#imageBox {
+  transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+/* Esconde a div ao trocar a imagem */
+#imageBox.fade-out {
+  opacity: 0;
+}
+
+
+
+
+.bg-image-1 {
+  
+    background-image: url('img/bt01.png'); /* Caminho da imagem */
+    width: 100%; /* Largura completa */
+    height: 100%; /* Altura fixa */
+    background-size: cover; /* Faz a imagem cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    box-shadow: inset 0 -58px 50px rgba(9, 150, 51, 0.712);
+  }
+
+  
