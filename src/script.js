@@ -13,7 +13,7 @@ btn.addEventListener('click', () => {
   });
 
   btn01.addEventListener('click', () => {
-    imageBox.style.backgroundImage = "url('img/bt02.png')"; // Troca a imagem de fundo
+    imageBox.style.backgroundImage = "url('img/bt03.png')"; // Troca a imagem de fundo
     btn01.classList.add('active'); // Ativa o botão 2
     btn.classList.remove('active');
     btn02.classList.remove('active');
@@ -22,7 +22,7 @@ btn.addEventListener('click', () => {
   });
 
   btn02.addEventListener('click', () => {
-    imageBox.style.backgroundImage = "url('img/bt03.png')"; // Troca a imagem de fundo
+    imageBox.style.backgroundImage = "url('img/bt02.png')"; // Troca a imagem de fundo
     btn02.classList.add('active'); // Ativa o botão 2
     btn.classList.remove('active');
     btn01.classList.remove('active');

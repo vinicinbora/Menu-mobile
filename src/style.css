@@ -24,7 +24,7 @@
     background-size: cover; /* Faz a imagem cobrir toda a área da div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetir a imagem */
-    box-shadow: inset 0 -58px 50px rgba(9, 150, 51, 0.712);
+    box-shadow: inset 0 -58px 50px rgba(17, 17, 17, 0.712);
   }
 
   
